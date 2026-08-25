@@ -1,0 +1,6 @@
+{
+  "name": "AETHER-7: Deep Space Vector Command",
+  "description": "An aerospace vector combat and anomaly salvage simulator fusing hard-sci-fi astrophysics with ancient Indian cosmological traditions (Vimana Protocol), featuring Astra weapon matrices, Trimurti supercomputing, Dharma ethical reasoning, and OM harmonic resonance stabilization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

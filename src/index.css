@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@keyframes railgunGlowPulse {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(245, 158, 11, 0.4), inset 0 0 4px rgba(245, 158, 11, 0.2);
+    border-color: rgba(245, 158, 11, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(245, 158, 11, 0.8), inset 0 0 10px rgba(245, 158, 11, 0.35);
+    border-color: rgba(251, 191, 36, 1);
+  }
+}
+
+@keyframes railgunScanSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+.railgun-active-pulse {
+  animation: railgunGlowPulse 1.8s ease-in-out infinite;
+}
+
+.railgun-scan-sweep {
+  animation: railgunScanSweep 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
